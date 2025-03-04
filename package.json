@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-kysely",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ensures safe database operations for Kysely",
   "main": "eslint-plugin-kysely-rules.js",
   "scripts": {
@@ -14,16 +14,13 @@
     "eslint-plugin",
     "kysely"
   ],
-  "author": "marcopedone",
+  "author": "sasumaki",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^9.13.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcopedone/eslint-plugin-kysely-rules.git"
-  },
-  "dependencies": {
-    "eslint-plugin-kysely": "file:.yalc/eslint-plugin-kysely"
+    "url": "git+https://github.com/sasumaki/eslint-plugin-kysely.git"
   }
 }
