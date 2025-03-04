@@ -1,4 +1,4 @@
-# esling-plugin-kysely
+# eslint-plugin-kysely
 
 eslint-plugin-kysely is a fork of eslint-plugin-kysely-rules.
 
