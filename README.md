@@ -75,11 +75,11 @@ db.selectFrom("users").where("id", "=", 1).selectAll();
 
 ### enforce-select-clause
 
-Ensures that SELECT clauses are explicitly defined rather than using `selectAll()`.
+Ensures that SELECT clauses are explicitly defined`.
 
 ```typescript
 // ❌ Bad
-db.selectFrom("users").selectAll();
+db.selectFrom("users");
 
 // ✅ Good
 db.selectFrom("users").select(["id", "name", "email"]);
