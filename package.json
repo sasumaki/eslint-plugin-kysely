@@ -6,7 +6,9 @@
   "scripts": {
     "test-where": "node enforce-where-clause.test.js",
     "test-select": "node enforce-select-clause.test.js",
-    "test-no-ambigious-columns": "node enforce-no-ambigious-columns.test.js"
+    "test-no-ambigious-columns": "node enforce-no-ambigious-columns.test.js",
+    "test-no-equal-operator-null": "node no-equal-operator-null.test.js",
+    "test-enforce-kysely-operators": "node enforce-kysely-operators.test.js"
   },
   "keywords": [
     "eslint",
