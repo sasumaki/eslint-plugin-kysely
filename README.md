@@ -63,14 +63,14 @@ This is equivalent to:
 
 ### enforce-where-clause
 
-Prevents queries without WHERE clauses to avoid accidental full table scans.
+Prevents queries without WHERE clauses to avoid accidental table drops.
 
 ```typescript
 // ❌ Bad
-db.selectFrom("users").selectAll();
+db.deleteFrom("users");
 
 // ✅ Good
-db.selectFrom("users").where("id", "=", 1).selectAll();
+db.deleteFrom("users").where("id", "=", 1);
 ```
 
 ### enforce-select-clause
